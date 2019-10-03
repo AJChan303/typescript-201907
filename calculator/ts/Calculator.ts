@@ -1,27 +1,27 @@
-const readline = require('readline');
+import * as  readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
   });
 
-function  add(a:number, b:number):number{
-        return a+b;
-}
+// function  add(a:number, b:number):number{
+//         return a+b;
+// }
 
-function subt(a:number, b:number):number{
-     return a-b;     
-}
+// function subt(a:number, b:number):number{
+//      return a-b;     
+// }
 
-function div(a:number, b:number):number{
-    return a/b;
-}
+// function div(a:number, b:number):number{
+//     return a/b;
+// }
 
-function mult(a:number, b:number):number{
-    return a*b;
-}
-function mod(a:number, b:number):number{
-    return a%b;
-}
+// function mult(a:number, b:number):number{
+//     return a*b;
+// }
+// function mod(a:number, b:number):number{
+//     return a%b;
+// }
 
 rl.input1('Enter a number', (input1) => {
 
